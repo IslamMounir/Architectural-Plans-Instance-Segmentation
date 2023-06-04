@@ -1,10 +1,10 @@
 # Architectural Plans Instance Segmentation
 
-This project aims to performing instance segmentation on architectural plans to separate them into three classes: rooms, doors, and windows. The model used for instance segmentation is YOLOv8.
+This project aims to performing instance segmentation on architectural plans to separate them into three classes: rooms, doors and windows. The model used for instance segmentation is YOLOv8.
 
 ## Dataset
 
-The dataset comprises architectural plan images containing instances of rooms, doors, and windows. The dataset has been labeled with masks for each class.
+The dataset comprises architectural plans images containing instances of rooms, doors and windows. The dataset has been labeled with masks for each class.
 
 Here are some sample images from the dataset:
 
@@ -47,7 +47,7 @@ The trained model was evaluated on the test dataset with the following results:
 
 ## Inference
 
-The model was used to perform inference on a set of test images. Here are some sample images along with the predicted bounding boxes:
+The model was used to perform inference on a set of test images. Here are some sample images along with the predicted masks:
 
   <br/>
 <div align="center">
